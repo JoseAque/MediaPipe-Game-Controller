@@ -20,5 +20,5 @@ De esta forma, se reemplaza el **esquema tradicional de control físico** por un
 - 🧎 **Agacharse** → Disminución notable de la altura del cuerpo (flexión de rodillas).  
 - 🔥 **Hadouken** → Movimiento simultáneo de ambos brazos hacia adelante, simulando el clásico ataque de energía.  
 
-
-@ObedDM
+Development team
+``@ObedDM``
