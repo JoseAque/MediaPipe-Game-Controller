@@ -21,9 +21,4 @@ De esta forma, se reemplaza el **esquema tradicional de control físico** por un
 - 🔥 **Hadouken** → Movimiento simultáneo de ambos brazos hacia adelante, simulando el clásico ataque de energía.  
 
 
-Equipo
-```
-Aqué González José Manuel 
-Obed Domínguez Mora
-Ortiz Valle Leonardo Yeret
-```
+@ObedDM
