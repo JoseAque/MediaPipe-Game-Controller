@@ -1,24 +1,48 @@
-## 🎮 Street Fighter con MediaPipe Pose  
+## 🎮 Street Fighter with MediaPipe Pose
 
-El proyecto consiste en una **implementación interactiva del juego Street Fighter**, en la cual se emplea la tecnología de **MediaPipe Pose** para interpretar los **gestos corporales del usuario** y convertirlos en **comandos de control del personaje**.
+This project features an **interactive implementation of Street Fighter**, utilizing **MediaPipe Pose** technology to interpret **user body gestures** and translate them into **character control commands**.
 
-### ⚙️ ¿Cómo funciona?  
+<p align="center">
+  <img src="assets/demo.gif" alt="MediaPipe-Game-Controller" width="800">
+</p>
 
-Mediante el uso de **OpenCV** para la **captura de video**, **MediaPipe Pose** para la **detección y seguimiento de puntos clave del cuerpo**, y **PyDirectInput** para la **simulación programática de entradas del teclado**, el sistema permite que el jugador ejecute acciones dentro del juego utilizando exclusivamente los **movimientos de su cuerpo**.
+### ⚙️ How it Works
 
-![MediaPipe Human Pose](images/MediaPipePose.jpg)
+By leveraging **MediaPipe Pose** for the **detection and tracking of body keypoints**, **OpenCV** for **video capture**, and **PyDirectInput** for the **programmatic simulation of keyboard inputs**, the system enables players to execute in-game actions using exclusively their **body movements**.
 
-De esta forma, se reemplaza el **esquema tradicional de control físico** por una interfaz de interacción basada en **detección de poses**, proporcionando una experiencia más **inmersiva, dinámica y natural** en el entorno de combate.
+This approach replaces the **traditional physical controller scheme** with an interaction interface based on **pose detection**, delivering a more **immersive, dynamic, and natural experience** within the combat environment.
 
-### 🕹️ Movimientos implementados  
+### 📥 Installation & Setup
 
-- ✊ **Golpe Izq–Der** → Movimiento rápido del brazo hacia adelante.  
-- 🦶 **Patada Izq–Der** → Elevación de la pierna a determinada altura.  
-- 🚶 **Avanzar** → Desplazamiento corporal hacia adelante.  
-- 🔙 **Retroceder** → Desplazamiento corporal hacia atrás.  
-- 🕴️ **Saltar** → Detección de aumento repentino en la posición del cuerpo.  
-- 🧎 **Agacharse** → Disminución notable de la altura del cuerpo (flexión de rodillas).  
-- 🔥 **Hadouken** → Movimiento simultáneo de ambos brazos hacia adelante, simulando el clásico ataque de energía.  
+**Download the MAME Emulator:**
+   - [**DOWNLOAD HERE**](https://www.mamedev.org/)
 
-Development team
-``@ObedDM``
+### 📷 Camera Setup
+For optimal pose detection, please ensure your environment meets the following criteria:
+
+- **Distance:** Position yourself approximately **1.7 meters** away from the camera.
+- **Height:** The camera should be placed at a height of **1.45 meters** from the floor.
+- **Lighting:** Ensure the room is well-lit for accurate body tracking.
+
+### ⚖️ Calibration (Critical)
+When you run the script, the system requires a brief initialization phase:
+
+1. **Stand Still:** Face the camera directly. Remain perfectly still for **5 seconds** (do not move your arms, torso, or head).
+2. **Combat Stance:** After the 5-second calibration is complete, **turn 90 degrees to your right**.
+3. **Start:** You are now ready to control the character and begin fighting!
+
+### 💿 Emulation Specs
+This system has been calibrated and tested using the following specific versions:
+- **Emulator:** MAME 0.281
+- **Game:** Street Fighter Alpha 3
+
+### 🕹️ Implemented Moves
+
+- ✊ **L/R Punch** → Rapid arm movement forward.
+- 🦶 **L/R Kick** → Leg elevation to hip height.
+- 🚶 **Move Forward** → Body displacement forward.
+- 🔙 **Move Backward** → Body displacement backward.
+- 🕴️ **Jump** → Detection of a sudden upward change in body position.
+- 🧎 **Crouch** → Notable decrease in body height (knee flexion).
+- 🔥 **Hadouken** → Simultaneous movement of both arms forward, simulating the classic energy attack.
+
