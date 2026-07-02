@@ -46,3 +46,6 @@ This system has been calibrated and tested using the following specific versions
 - 🧎 **Crouch** → Notable decrease in body height (knee flexion).
 - 🔥 **Hadouken** → Simultaneous movement of both arms forward, simulating the classic energy attack.
 
+#### Collaborators
+- [ObedDM](https://github.com/ObedDM/Pose-Fighter-System)
+
